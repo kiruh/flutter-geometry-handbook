@@ -15,7 +15,6 @@ class TopicView extends StatefulWidget {
 }
 
 class TopicViewState extends State<TopicView> {
-  final TextStyle _biggerFont = const TextStyle(fontSize: 18.0);
   List<TopicFormula> _formulas = new List<TopicFormula>();
 
   List<Widget> _renderFormulas() {
@@ -32,9 +31,6 @@ class TopicViewState extends State<TopicView> {
         );
       },
     ).toList();
-
-    final List<Widget> divided =
-        ListTile.divideTiles(context: context, tiles: tiles).toList();
 
     return tiles;
   }

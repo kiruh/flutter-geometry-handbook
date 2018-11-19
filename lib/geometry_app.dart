@@ -87,7 +87,7 @@ class GeometryAppState extends State<GeometryApp> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Geometry'),
+        title: Text('Geometry Handbook'),
       ),
       body: _renderItems(),
     );

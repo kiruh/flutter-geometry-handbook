@@ -215,8 +215,6 @@ Future<Database> initDb() async {
   String databasesPath = await getDatabasesPath();
   String path = join(databasesPath, 'categories.db');
 
-  await deleteDatabase(path);
-
   var db = await openDatabase(path,
       version: 4, onCreate: _onCreate, onUpgrade: _onUpgrade);
   return db;

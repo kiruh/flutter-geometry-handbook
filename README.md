@@ -1,8 +1,4 @@
-# geometry
+# Geometry Handbook
 
-A new Flutter project.
+Geometry formulas for everyday use.
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
